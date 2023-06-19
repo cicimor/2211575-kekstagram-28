@@ -8,7 +8,7 @@ const stringLength = function (string, maxLenght) {
 };
 
 stringLength('привет', 6);
-console.log(stringLength);
+
 
 const palindrome = function (string) {
   const reverseString = string.split('').reverse().join('');
